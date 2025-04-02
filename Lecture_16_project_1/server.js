@@ -28,5 +28,5 @@ mongoose
   // redirect to original url using short code :- dynamic routing
   app.get("/:shortCode", getOriginalUrl);
 
-const port = 1000;
+const port = 5000;
 app.listen(port,()=>console.log(`server is running on port ${port}`))
